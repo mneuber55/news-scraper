@@ -1,0 +1,20 @@
+<div id="title-wrapper">
+    <h1>Phillies News</h1>
+    <h2><i>What Reddit is saying about the Phillies</i></h2>
+    <div id="articles"></div>
+    <div id="comments"></div>
+</div>
+
+<div id="article-wrapper">
+    {{#each articles}}
+    <div class="article-box">
+        <h2>{{headline}}</h2>
+        <a href="{{url}}" class="article-url" data-id="{{id}}">
+            Check out the story!
+        </a>
+        <button class="leave-note" data-id="{{id}}">
+            Leave a Note
+        </button>
+    </div>
+    {{/each}}
+</div>

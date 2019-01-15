@@ -1,0 +1,17 @@
+.article-box {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: red;
+    overflow: auto
+}
+
+.article-url {
+    margin: 10px;
+    float: left;
+}
+
+.leave-note {
+    margin: 10px;
+    float: right;
+}
